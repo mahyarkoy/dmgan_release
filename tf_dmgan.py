@@ -52,7 +52,6 @@ class DMGAN:
 		self.data_dim = data_dim
 		self.gp_loss_weight = 10.0
 		self.en_loss_weight = 1.0
-		self.rl_lr = 0.99
 		self.pg_q_lr = 0.01
 		self.pg_temp = 1.0
 		self.g_rl_vals = 0. * np.ones(self.g_num, dtype=np_dtype)
