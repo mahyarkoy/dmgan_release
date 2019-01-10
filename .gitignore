@@ -1,0 +1,6 @@
+*log
+*logs
+logs*
+log*
+*.pyc
+snapshots
